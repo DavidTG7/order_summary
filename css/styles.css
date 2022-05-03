@@ -1,0 +1,115 @@
+body {
+  height: 100vh;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display";
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.main-paragraph {
+  text-align: center;
+  margin: 0 15% 4%;
+  font-size: 16px;
+}
+
+.main-container {
+  width: 450px;
+  border-radius: 20px;
+  border: solid 2px none;
+
+  margin: auto;
+
+  background-color: #fff;
+  box-shadow: 0 30px 30px #c9d0f5;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.plan-subscription {
+  border-radius: 10px;
+  margin: auto;
+  background-color: hsl(225, 100%, 98%);
+  width: 80%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-left: 25px;
+}
+
+.change-box {
+  margin-right: 25px;
+}
+
+.change-link {
+  color: #2e0fba;
+  font-weight: 700;
+}
+
+.change-link:hover {
+  color: #6548e8;
+}
+
+.plan {
+  margin-right: 80px;
+  margin-left: 10px;
+  line-height: 10px;
+}
+
+a {
+  margin: auto;
+}
+
+button {
+  font-size: 15px;
+  font-weight: 900;
+  color: hsl(225, 100%, 98%);
+  margin: 30px auto;
+  width: 80%;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 20px 30px #bfbfbf;
+  background-color: hsl(245, 75%, 52%);
+}
+
+button:hover {
+  background-color: #6548e8;
+}
+
+.cancel-order {
+  margin: 15px auto 50px;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+}
+
+.cancel-order:hover {
+  color: hsl(223, 47%, 23%);
+}
