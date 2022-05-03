@@ -15,4 +15,4 @@ Your users should be able to:
 
 This is my solution to the challenge Order summary card:
 
-<img src="#">
+<img src="./images/my_solution.png">
